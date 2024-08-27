@@ -3,7 +3,7 @@ on: [push] # You may want to trigger this Action on other things than a push.
 
 jobs:
   build:
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     steps:
 
     - name: checkout files in repo
