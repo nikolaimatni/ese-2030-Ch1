@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: b45920fa-856a-4519-ae59-39215dd46733
+  title: ESE 2030 - Linear Algebra with Applications to Engineering and AI
+  description: Course notes
+  toc:
+    options:
+    - numbered: True
+  keywords: []
+  authors: [Nikolai Matni]
+  github: https://github.com/nikolaimatni/ese-2030
+  # jupyter: true
+  abbreviations:
+    MyST: Markedly Structured Text
+    ALA: Applied Linear Algebra by Olver and Shakiban
+    LAA: Linear Algebra and its Applications by Lay, McDonald, and Lay
+    ILA: Introduction to Linear Algebra by Strang
+  math:
+    '\vv': '\mathbf{#1}'
+    '\bm': '\begin{bmatrix}'
+    '\em': '\end{bmatrix}'
+    '\R': '\mathbb{R}'
+  # bibliography: []
+  exclude:
+    'linear_algebraic_systems/'
+  numbering:
+    heading_1: true
+    heading_2: true
+    heading_3: true
+site:
+  template: book-theme
+  title: ESE 2030 📏
+  options:
+  #   favicon: favicon.ico
+    logo: penn-eng-logo.png
+  nav: []
+  actions:
+    # - title: Learn More
+      # url: https://mystmd.org/guide
+  domains: []
+
